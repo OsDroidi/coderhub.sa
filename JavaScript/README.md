@@ -197,16 +197,25 @@ const lessOrMoreThanZero = (number) => {
 
 ```js
 function average(array) {
-  return array.reduce((p, c) => (p + c)) / array.length
+  let total = 0;
+  for (let i = 0; i < array.length; i++) {
+    total += array[i];
+  }
+  return total / array.length;
 }
 ```
 
 <div dir="rtl">
 
-### حل آخر
+### حلول آخرى
 
 </div>
 
+```js
+function average(array) {
+  return array.reduce((p, c) => (p + c)) / array.length
+}
+```
 
 ```js
 const average = (array) => array.reduce((p, c) => (p + c)) / array.length
