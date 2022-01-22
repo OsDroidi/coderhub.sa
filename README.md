@@ -9,7 +9,7 @@
 **ملاحظة:**
 
 1. هذا المشروع هو مجهود شخصي ومنصة كودرهَب CoderHub ليس لهم علاقة بمحتوى هذا المشروع.
-2. تم استخدام بعض النصوص الموجودة على منصة كودرهَب CoderHub لغض الإيضاح فقط لا غير.
+2. تم استخدام بعض النصوص الموجودة على منصة كودرهَب CoderHub لغرض الإيضاح فقط لا غير.
 3. تم إنشاء هذا المشروع لغرض شخصي بهدف التعلم ولا يجوز نشره بغير إذن من صاحب هذا المشروع.
 
 ## طريقة  ترتيب أكواد التحديات
@@ -34,9 +34,15 @@
 **ملاحظة:** تم استخدام IntelliJ IDEA في هذا المشروع، لذا قد تجد بعض الملفات الخاصة بالتطبيق مثل
 يمكنك الانتقال إلى الملف README.md الموجود داخل المجلد Java لمشاهدة الحل المختصر للتحدي، كما يمكنك تحميل ملف .java تشغيله وتجربته على البرنامج الذي تستخدمه في التطوير (ربما سيتطلب منك بعض الخطوات الإضافية للتمكن من تشغيل الكود)
 
+
+###  C#
+
+###  JavaScript
+
 ### اختر اللغة لمشاهدة حلول التحديات
 
 [<img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" style="zoom:50%;" />](Java/README.md)				[<img src="https://emilcraciun.net/content/images/2019/01/Csharp_Logo-2.png" alt="C#" style="zoom: 50%;" />](CS/README.md)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" style="zoom: 15%;" />](JavaScript/README.md)
 
 
 
