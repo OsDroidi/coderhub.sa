@@ -41,8 +41,10 @@
 
 ### اختر اللغة لمشاهدة حلول التحديات
 
-[<img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" style="zoom:50%;" />](Java/README.md)				[<img src="https://emilcraciun.net/content/images/2019/01/Csharp_Logo-2.png" alt="C#" style="zoom: 50%;" />](CS/README.md)
-[<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" style="zoom: 15%;" />](JavaScript/README.md)
+
+[<img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" style="width: 150px;" />](Java/README.md)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png" alt="C#" style="width: 300px;" />](CS/README.md)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" style="width: 200px;" />](JavaScript/README.md)
 
 
 
