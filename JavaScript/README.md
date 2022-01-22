@@ -27,7 +27,7 @@
 
 ```js
 function sub(a, b) {
-	return a - b
+	return a - b;
 }
 ```
 
@@ -39,7 +39,7 @@ function sub(a, b) {
 
 
 ```js
-const sub = (a, b) => a - b
+const sub = (a, b) => a - b;
 ```
 
 <div dir="rtl">
@@ -65,7 +65,7 @@ const sub = (a, b) => a - b
 
 ```js
 function ConcatNames(name1, name2) {
-	return name1 + " " + name2
+	return name1 + " " + name2;
 }
 ```
 
@@ -77,7 +77,7 @@ function ConcatNames(name1, name2) {
 
 
 ```js
-const ConcatNames = (name1, name2) => `${name1} ${name2}`
+const ConcatNames = (name1, name2) => `${name1} ${name2}`;
 ```
 
 <div dir="rtl">
@@ -103,7 +103,7 @@ const ConcatNames = (name1, name2) => `${name1} ${name2}`
 
 ```js
 function divRemainder(a, b) {
-  return a % b
+  return a % b;
 }
 ```
 
@@ -115,7 +115,7 @@ function divRemainder(a, b) {
 
 
 ```js
-const divRemainder = (a, b) => a % b
+const divRemainder = (a, b) => a % b;
 ```
 
 <div dir="rtl">
@@ -142,14 +142,14 @@ const divRemainder = (a, b) => a % b
 
 ```js
 function lessOrMoreThanZero(number) {
-  if(number > 0) {
-    return "Greater than zero"
-  } else if(number === 0) {
-    return "Equal to zero"
-  } else if(number < 0) {
-    return "Less than zero"
+  if (number > 0) {
+    return "Greater than zero";
+  } else if (number === 0) {
+    return "Equal to zero";
+  } else if (number < 0) {
+    return "Less than zero";
   } else {
-    return false
+    return false;
   }
 }
 ```
@@ -213,15 +213,15 @@ function average(array) {
 
 ```js
 function average(array) {
-  return array.reduce((p, c) => (p + c)) / array.length
+  return array.reduce((p, c) => (p + c)) / array.length;
 }
 ```
 
 ```js
-const average = (array) => array.reduce((p, c) => (p + c)) / array.length
+const average = (array) => array.reduce((p, c) => (p + c)) / array.length;
 ```
 
-<!-- <div dir="rtl">
+<div dir="rtl">
 
 ## 6. النصوص المتشابهة
 
@@ -244,14 +244,35 @@ const average = (array) => array.reduce((p, c) => (p + c)) / array.length
 </div>
 
 ```js
-public static String isSame(String name1, String name2) {
-        // write your code here
-        if (name1.equals(name2)) return "متشابهتين";
-        return "غير متشابهتين";
-    }
+function isSame(name1, name2) {
+  if (name1 === name2) {
+    return "متشابهتين";
+  } else if (name1 !== name2) {
+    return "غير متشابهتين";
+  }
+}
 ```
 
 <div dir="rtl">
+
+### حلول آخرى
+
+</div>
+
+```js
+function isSame(name1, name2) {
+  if (name1 === name2) {
+    return "متشابهتين";
+  }
+  return "غير متشابهتين";
+}
+```
+
+```js
+const isSame = (name1, name2) => name1 === name2 ? "متشابهتين" : "غير متشابهتين";
+```
+
+<!-- <div dir="rtl">
 
 ## 7. عدد عناصر المصفوفة
 
